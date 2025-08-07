@@ -279,7 +279,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ca8a62 !important;
+			color: #000000 !important;
 		}
 
 	strong, b {
@@ -385,6 +385,17 @@ input, select, textarea {
 
 	}
 
+/* Tags */
+
+	.tag {
+		box-sizing: border-box;
+		background-color: #ca8a62;
+		border-radius: 12px;
+		font-size: 0.7em;
+		padding: 0.2em 0.4em;
+		margin-right: 0.5em;
+		
+	}
 
 
 /* Image */
@@ -404,6 +415,8 @@ input, select, textarea {
 			
 			
 		}
+
+		
 
 		
 
@@ -594,7 +607,6 @@ input, select, textarea {
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
-					margin-top: 0.35em;
 					opacity: 0;
 				}
 
