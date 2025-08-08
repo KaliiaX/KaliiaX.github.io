@@ -242,7 +242,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #000000;
+		color: #020516;
 		font-family: "Livvic", sans-serif;
 		font-size: 18pt;
 		font-weight: 400;
@@ -279,7 +279,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #000000 !important;
+			color: #ca8a62 !important;
 		}
 
 	strong, b {
@@ -312,7 +312,7 @@ input, select, textarea {
 
 			h1 {
 				font-size: 1.5em;
-				margin: 0 0 1em 0;
+				
 			}
 
 		}
@@ -458,7 +458,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.image.main {
-					margin: 0 0 2em 0;
+					margin: 0;
 				}
 
 			}
@@ -583,7 +583,7 @@ input, select, textarea {
 				padding: 1em 0 0 0;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #000000;
+				color: #020516 !important;
 				text-align: left;
 				text-decoration: none;
 				z-index: 3;
@@ -844,6 +844,12 @@ input, select, textarea {
 	margin: 0em 10em 0em 0.5em; 
 }
 
+@media screen and (max-width: 736px) {
+	#text {
+		margin: 0em;
+	}
+}
+
 
 /* Main */
 
@@ -873,7 +879,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 1.5em 1.5em 3em 1.5em ;
+				padding: 10em 0em 2em 0em ;
 			}
 
 		}
@@ -915,11 +921,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .index {
-				padding: 1em 1em;
+				padding: 5em 0 0 0;
 			}
 
 			#wrapper > * > .inner {
 				padding: 0 1.25em;
+			}
+
+			#wrapper > * > .impress {
+				padding: 6em 1.25em 15em 1.25em;
 			}
 
 		}
