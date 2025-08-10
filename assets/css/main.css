@@ -296,6 +296,10 @@ input, select, textarea {
 		
 	}
 
+	small {
+		font-size: 0.7em;
+	}
+
 	h1 {
 		font-size: 1.8em;
 		font-weight: 700;
@@ -872,7 +876,7 @@ input, select, textarea {
 
 /* Footer */
 	#footer {
-		padding: 10em 1.5em 3em 1.5em;
+		padding: 12em 1.5em 1em 1.5em;
 		text-align: center;
 	}
 
