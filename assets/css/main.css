@@ -417,6 +417,27 @@ input, select, textarea {
   gap: 4em; /* spacing between image and text */
 }
 
+.container img {
+  width: 25%; /* adjust as needed */
+  border-radius: 0px; /* no rounded corners */
+}
+
+@media (max-width: 600px) {
+
+  .container {
+    flex-direction: column; /* stack items vertically */
+    
+
+  }
+
+  .container img {
+  width: 80%; /* adjust as needed */
+  border-radius: 0px; /* no rounded corners */
+  padding: 0 3em 0 0;
+}
+
+}
+
 .img {
   width: 100px;
   height: auto;
