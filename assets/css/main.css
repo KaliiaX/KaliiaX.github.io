@@ -426,7 +426,7 @@ input, select, textarea {
 
   .container {
     flex-direction: column; /* stack items vertically */
-    
+    gap: 1em; /* smaller gap for mobile */
 
   }
 
