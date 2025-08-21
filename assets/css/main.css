@@ -399,10 +399,28 @@ input, select, textarea {
 		padding: 0.2em 0.4em;
 		margin-right: 0.5em;
 		
+		
+		
 	}
+	.tag a:hover {
+			color: #c7bcb5 !important;
+			
+		}
 
 
 /* Image */
+
+
+.container {
+  display: flex;
+  align-items: center; /* vertically aligns text with image */
+  gap: 4em; /* spacing between image and text */
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
 
 	.image {
 		border-radius: 4px;
@@ -909,6 +927,14 @@ input, select, textarea {
 		
 	}
 
+	#wrapper > * > .about {
+		width: 100%;
+		max-width: 68em;
+		margin: auto;
+		padding: 5em 0 0 0;
+		
+	}
+
 	#wrapper > * > .inner {
 		width: 100%;
 		max-width: 68em;
@@ -925,7 +951,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .index {
-				padding: 5em 0 0 0;
+				padding: 5em 1em 0 ;
 			}
 
 			#wrapper > * > .inner {
@@ -933,6 +959,10 @@ input, select, textarea {
 			}
 
 			#wrapper > * > .impress {
+				padding: 6em 1.25em 15em 1.25em;
+			}
+
+			#wrapper > * > .about {
 				padding: 6em 1.25em 15em 1.25em;
 			}
 
